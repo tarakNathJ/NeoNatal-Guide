@@ -11,7 +11,7 @@
 
 **An AI-powered neonatal health companion that helps new parents navigate their baby's first year with confidence.**
 
-[🌐 Live Demo](https://neo-natal-guide.vercel.app) · [🐛 Report Bug](https://github.com/tarakNathJ/NeoNatal-Guide/issues) · [✨ Request Feature](https://github.com/tarakNathJ/NeoNatal-Guide/issues)
+[Live Demo](https://neo-natal-guide.vercel.app) ·[Notion](https://abiding-lung-b7b.notion.site/NeoNatal-Guide-Complete-Notion-Project-Documentation-32a81cd7e25280829f80e3423285960f?source=copy_link)
 
 </div>
 
