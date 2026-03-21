@@ -141,7 +141,6 @@ Make sure you have the following installed on your machine:
 
 - **Node.js** — version 18.x or later (recommended: 20.x LTS)
 - **npm** — version 9.x or later (comes with Node.js)
-- A **Google Gemini API key** (free tier available at [Google AI Studio](https://aistudio.google.com/))
 - A **Groq API key** (free tier at [console.groq.com](https://console.groq.com/))
 
 ### Installation
@@ -171,9 +170,6 @@ This will install all packages listed in `package.json`, including Next.js, Reac
 Create a `.env.local` file in the root of the project and add your API keys:
 
 ```env
-# Google Gemini AI API Key
-GEMINI_API_KEY=your_google_gemini_api_key_here
-
 # Groq AI API Key
 GROQ_API_KEY=your_groq_api_key_here
 ```
@@ -182,7 +178,6 @@ GROQ_API_KEY=your_groq_api_key_here
 
 **How to get your API keys:**
 
-- **Google Gemini:** Visit [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey), sign in with your Google account, and generate a free API key.
 - **Groq:** Visit [https://console.groq.com/keys](https://console.groq.com/keys), create a free account, and generate an API key.
 
 ### Running the Development Server
@@ -207,16 +202,7 @@ npm run lint       # Runs ESLint to check for code issues
 
 ## 🤖 AI Integration
 
-NeoNatal Guide uses **two AI providers** to power its conversational features:
-
-### Google Generative AI (Gemini)
-The primary AI model responsible for generating detailed, medically-informed parenting responses. Gemini is used for its strong language understanding and ability to provide nuanced, age-specific child health information.
-
-The SDK is integrated via:
-```bash
-@google/generative-ai: "^0.24.1"
-```
-
+NeoNatal Guide uses ** AI providers** to power its conversational features:
 ### Groq SDK
 A secondary AI integration (Groq) that provides ultra-fast inference. Groq is known for its exceptional speed when running large language models, making it ideal for scenarios where near-instant responses are needed.
 
